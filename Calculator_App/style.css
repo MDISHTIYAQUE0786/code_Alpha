@@ -1,0 +1,86 @@
+ 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  /* for body center a calculator */
+  body{
+      height: 100vh;
+    width:100vw;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border: 2px solid black;
+     color: white;
+     font-size: 30px;
+     background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
+     
+  }
+  .calculator{
+ border: 1px solid white;
+ padding: 20px;
+border-radius: 16px;
+background-color: transparent;
+/* box-shadow: 0px 3px 15px rgba(113,115,119,0.9); */
+
+  }
+  input{
+    width:320px;
+    border: none;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(84,84,84,0.3);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color: white;
+  }
+  /* for placeholer setting */
+  input::placeholder{
+color:#ffffff;
+font-size: 30px;
+  }
+
+  button{
+    border: none;
+    width:60px;
+    height: 60px;
+    margin: 3px;
+    border-radius: 50px;
+    background: transparent;
+    color: #ffffff;
+    font-size: 20px;
+    /* box-shadow: -8px -8px 15px  rgba(255,255,255,0.1);
+    cursor: pointer; */
+  }
+  .eqlBtn{
+    background-color: #4b716b;
+  }
+  .eqlBtn:hover{
+    background-color: #15f0cf;
+  }
+  .operator{
+    color: hsl(59, 93%, 56%);
+    border: 2px solid black;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  }
+   
+  .operator:hover{
+    background-color: #4b716b;
+    color: white;
+ 
+  }
+   
+  
+  

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Creating a Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+
+<!-- first creating a navigation bar -->
+      <div class="sidebar">
+        <h2>Portfolio</h2>
+        <nav>
+          <ul>
+            <li><a href="/home.html">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/contact.html">Contact Me</a></li>
+            <li></li>
+            <li><a href="/services.html">Skills</a></li>
+            <li><a href="/blog.html">Blog</a></li>
+          </ul>
+        </nav>
+      </div>
+    
+      <div class="main">
+        <div class="infoContainer">
+          <div class="devInfo">
+            <div class="hello"><h1>Hii,</h1></div>
+            <div class="name">I am Ishtiyaque</div>
+            <div class="about">Full stack Developer</div>
+            <div class="moreAbout">
+              I am a passionate about MERN STACK Developer and just for creating such
+              an amazing websites
+            </div>
+            <div class="buttons">
+              <a href="/Portfolio/images/Resume.png" target="_blank" type="Download"
+                ><button type="download">Download CV</button></a
+              >
+              <a href="/contact.html"><button>Contact me</button></a>
+            </div>
+          </div>
+
+          <div class="devPic">
+            <img src="/Portfolio/images/pics.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+      <!-- for contact -->
+
+      <div class="contactInfo">
+        <h1>Contact me so for General enquires</h1>
+        <form>
+
+          <div class="insideContact">
+        
+            <label for="name" class="email">Enter Name</label>
+            <input type="text" class="name" id="name" />
+            
+ 
+          </div>
+
+          <div class="insideContact">
+            <!-- <label for="name" class="name">Name</label>
+            <input type="text" class="nameInput" id="name" > -->
+
+            <label for="email" class="email">Email address</label>
+            <input type="email" class="emailInput" id="email" />
+            <!-- for email error  securing message passed in html -->
+            <div id="emailHelp" class="emailMessage">
+              We will never share your email with anyone else
+            </div>
+          </div>
+
+          <div class="insideContact">
+            <label for="password" class="password">Password</label>
+            <input type="password" class="passwordInput" id="password" />
+          </div>
+
+          <!-- form check me out -->
+          <div id="formcheck">
+  
+            <div class="checkinput">
+              <input type="checkbox" class="formClick" id="formmark"/>
+            </div>
+
+            <div class="checkname">
+              <label  for="formmark">Check me out</label>
+             </div>
+           
+          </div>
+          
+          <button type="submit" class="btn submitBtn">Submit</button>
+        </form>
+      </div>
+
+       
+      <!-- Blog items -->
+      <div class="blogContainer">
+        <h1>Vlogs by Ishtiyaque</h1>
+      
+            <div class="blogContent">
+              <h2>Learn Javascript -  in fun way</h2>
+              <p>Learn JavaScript the easy way with step by step guides real world projects and simple explanations to master coding effortlessly</p>
+              <button class="btn">Read more</button>
+            </div>
+
+             <div class="blogContent">
+              <h2>Learn Python in fun way</h2>
+              <p>Master Python effortlessly with step by step tutorials real world examples and hands on projects making coding simple and fun for beginners and experts alike</p>
+              <button class="btn">Read more</button>
+            </div>
+
+            <div class="blogContent">
+              <h2>Learn CSS -  in fun way</h2>
+              <p>
+                Learn CSS the easy way with step by step guides real world examples and practical projects to master styling  layouts and responsive design effortlessly</p>
+              <button class="btn">Read more</button>
+            </div>
+
+            <div class="blogContent">
+              <h2>Learn HTML -  in fun way</h2>
+              <p> HTML is like LEGO for the web snap together some tags and boom, you are building your own websites so Learn HTML the easy way with step by step guides real world examples and practical Projects</p>
+              <button class="btn">Read more</button>
+            </div>
+
+            <!-- About me content -->
+
+            <div class="introContainer">
+              <h2>About Me</h2>
+      <div class="aboutContent">
+      <p>I am a Full Stack  developer crafting seamless user experiences with clean code creative designs and a passion for bringing ideas to life on the web</p>
+      </div>
+
+      <h2>My Skills</h2>
+      <div class="skillContainer">
+        <div class="skillItem">HTML:<div class="HTML fourty"> </div></div>
+           <div class="skillItem">CSS: <div class="CSS fourty"></div></div>
+     <div class="skillItem">JAVASCRIPT: <div class="JAVASCRIPT"></div></div>
+<div class="skillItem">NODE JS: <div class="NODE"></div></div>
+<div class="skillItem">EJS: <div class="EJS"></div></div>
+         <div class="skillItem">
+          EXPRESS: <div class="EXPRESS"></div>
+         </div>
+      </div>
+          </div>
+    </div>
+
+
+    <footer>
+      <div class="footer">
+        <p>Copyright &copy; 2025 |
+       callishtiyaque9199@gmail.com |   9835807268</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

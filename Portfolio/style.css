@@ -1,0 +1,295 @@
+@import url("https://fonts.googleapis.com/css2?family=Iansui&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Quicksand:wght@300..700&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  /* background-color:rgb(219, 182, 182) */
+}
+
+.sidebar {
+  background-color: rgb(227, 219, 219);
+  width: 100vw;
+  font-family: "Iansui", cursive;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  justify-content: space-between;
+}
+.sidebar nav {
+}
+.sidebar h2 {
+  margin-top: 30px;
+  margin-left: 30px;
+  font-size: 40px;
+}
+.sidebar nav ul {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0px;
+  padding-bottom: 2px;
+}
+ 
+.sidebar nav ul li {
+  list-style: none;
+  font-size: 20px;
+  padding: 33px 0px;
+  margin-right: 30px;
+  font-weight: bold;
+}
+/* for links add up */
+.sidebar nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+.sidebar nav ul {
+}
+.infoContainer {
+  /* background-color: green; */
+  height: 50vh;
+  width: 100vw;
+  margin: 144px auto;
+  margin-top: 90px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.devInfo {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+.devInfo .hello {
+  font-size: 65px;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.devInfo .name {
+  font-size: 50px;
+  /* font-family: 'Fira Sans',sans-serif; */
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.devInfo .about {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Josefin Sans", sans-serif;
+  margin: 10px;
+}
+.devInfo .moreAbout {
+  font-size: 15px;
+  font-family: "Josefin Sans", sans-serif;
+  margin: 5px;
+}
+.buttons {
+  /* margin-top: px; */
+}
+.buttons button {
+  background-color: dodgerblue;
+  color: white;
+  padding: 9px;
+  margin: 10px;
+  border-radius: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  /* border: none; */
+  font-weight: bold;
+  cursor: pointer;
+}
+.buttons button:hover {
+  background-color: white;
+  color: blue;
+}
+.devPic img {
+  width: 280px;
+  height: 80vh;
+}
+.contactInfo {
+  font-family: "Josefin Sans", sans-serif;
+  /* margin-left: 200px;  */
+  padding-top: 100px;
+  padding-left: 40px;
+}
+
+.contactInfo h1 {
+  font-family: "Yatra One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+.contactInfo form div {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+.contactInfo form div input {
+  width: 200px;
+  border-radius: 4px;
+  padding: 3px;
+}
+.emailMessage {
+  font-size: 9px;
+  color: red;
+}
+ 
+#formcheck{
+    display: flex;
+    flex-direction: row;
+}
+
+.checkinput .formClick{ 
+  width: 24px;
+  margin: 3px 0;
+}
+ 
+
+form button{
+    padding: 6px 15px;
+    border-radius: 10px;
+    font-size: 10px;
+    background-color:dodgerblue;
+    border: none;
+    /* background: transparent; */
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+    font-family: "Hind", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+} 
+form button:hover{
+    background-color: white;
+color:black;
+}
+
+/* Blog styling */
+.blogContainer{
+  /* margin-left: 20px; */
+  margin-top: 30px;
+  
+}
+.blogContainer h1{
+  font-family: "Yatra One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  margin: 28px;
+  font-size: 40px;
+}
+.blogContent h2{
+  font-family: "Yatra One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  margin-top: 10px;
+}
+.blogContent p{
+  font-family: "Winky Sans", sans-serif;
+  margin-top: 10px;
+  margin-left: 160px;
+}
+.blogContent .btn{
+  margin-left: 30%;
+  padding: 2px;
+border-radius: 20px;
+cursor: pointer;
+ background-color: dodgerblue;
+
+}
+.blogContent .btn:hover{
+  background-color: white;
+  color: black;
+}
+.introContainer h2{
+  font-family: "Winky Sans", sans-serif;
+  text-align: center;
+}
+.aboutContent p{
+  font-family: "Winky Sans", sans-serif;
+  margin-left: 150px;
+}
+
+.skillContainer {
+  margin-left: 25%;
+  margin-top: 50px;
+}
+ 
+.HTML{
+  background-color: red;
+  width: 300px;
+  height:10px;
+  border-radius: 10px;
+  border: 1px solid black;
+ 
+}
+.CSS{
+  background-color: black;
+  width: 250px;
+  height:10px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.JAVASCRIPT{
+  
+    background-color:green;
+    width: 90px;
+    height:10px;
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+  .NODE{
+    background-color: blue;
+    width: 140px;
+    height:10px;
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+  .EXPRESS{
+    background-color: yellow;
+    width: 250px;
+    height:10px;
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+  .EJS{
+    background-color: white;
+    width: 200px;
+    height:10px;
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+  .skillItem{
+    display: flex;
+    align-items: center;
+    font-family: "Winky Sans", sans-serif;
+  }
+footer{
+  background-color: brown;
+  padding: 20px; 
+  margin-top: 30px;
+
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.footer{
+  display: flex;
+  justify-content:center;
+  font-weight: bold;
+ 
+  
+}
+.footer p{
+  padding-left: 70px;
+}
+  
+  
+
+
+
+
+
+
+
+
